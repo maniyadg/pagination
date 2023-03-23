@@ -68,7 +68,7 @@ function createTableRow(id,name,email){
 ////////////////////////////////////////////////   pagination Logic   ////////////////////////////////////////////////////
 
 let request = new XMLHttpRequest();
-request.open("GET","https://gist.github.com/rvsp/add40254aa126f045837fa5b51f47f1f#file-pagination-json",true);
+request.open("GET","https://gist.githubusercontent.com/rvsp/add40254aa126f045837fa5b51f47f1f/raw/4d724bfabf4cce7379a386e23bef6576ab99a2f9/pagination.json",true);
 request.send();
 request.onload = function(){
     let tabledata = JSON.parse(this.response);
